@@ -99,6 +99,8 @@ void printArray(int arr[], int arrLength) {
 
 7. Crie a função `bool hasDuplicates(const char str[])` que verifica se existe algum caracter duplicado em `str`.
 
+	* Nota: Os espaços (`' '`) devem ser ignorados nesta verificação. 
+
 8. Teste as funções no `main`, solicitando todas as *strings* necessárias ao utilizador.
 
 ### Nível 4 (Duração estimada: ~ 20min)
