@@ -104,4 +104,4 @@ void letterFrequency(const char str[]){
         char letter = 'a' + i;
         printf("%c\t| %d\n", letter, alphaCounter[i]);
     }
-}
+} // Complexidade Algorítmica O(N)

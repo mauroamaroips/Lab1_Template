@@ -1,8 +1,19 @@
+/**
+ * @file array.c
+ * @author Mauro Amaro
+ * @brief Provides an implementation of input.h
+ * @version 0.1
+ * @date 2023-03-19
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 #include <stdio.h>
 #include "array.h"
 #include <math.h>
 
-void arrayPrint(int arr[], int arrLength) { //Faz printf de todo os elementos do array
+void arrayPrint(int arr[], int arrLength) { 
     printf("[ ");
     for(int i=0; i<arrLength; i++) {
         printf("%d%s", arr[i], (i < arrLength - 1 ? ", " : ""));
@@ -10,7 +21,7 @@ void arrayPrint(int arr[], int arrLength) { //Faz printf de todo os elementos do
     printf("]\n");
 }
 
-int sum(int arr[], int arrLength){ //Retorna a soma de todos os elementos do array
+int sum(int arr[], int arrLength){ 
 
     int sumTotal = 0;
 
@@ -23,7 +34,7 @@ int sum(int arr[], int arrLength){ //Retorna a soma de todos os elementos do arr
 
 }
 
-double mean(int arr[], int arrLength){ //Retorna a média dos valores do array
+double mean(int arr[], int arrLength){ 
 
     double avg = 0;
     double sumValue = 0;
@@ -36,7 +47,7 @@ double mean(int arr[], int arrLength){ //Retorna a média dos valores do array
 
 }
 
-double variance(int arr[], int arrLength){ //Calcula a variância (de população)
+double variance(int arr[], int arrLength){ 
 
     double varianceValue = 0;
     double avgValue = mean(arr, arrLength);
@@ -51,7 +62,7 @@ double variance(int arr[], int arrLength){ //Calcula a variância (de populaçã
 
     return varianceValue;
  
-} //Complexidade Algoritmica (N)
+} //Complexidade Algoritmica O(N)
 
 double standardDeviation(int arr[], int arrLength){
 

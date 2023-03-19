@@ -1,0 +1,126 @@
+\hypertarget{array_8c}{}\doxysection{array.\+c File Reference}
+\label{array_8c}\index{array.c@{array.c}}
+
+
+Provides an implementation of \mbox{\hyperlink{input_8h}{input.\+h}}.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}array.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Include dependency graph for array.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{array_8c_afc8ddd6cf7e6f2f72d30bbb266ccfdea}{array\+Print}} (int arr\mbox{[}$\,$\mbox{]}, int arr\+Length)
+\begin{DoxyCompactList}\small\item\em Prints all elements of an integer array. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{array_8c_a942add9bc2b63371fa1801e5ecd09905}{sum}} (int arr\mbox{[}$\,$\mbox{]}, int arr\+Length)
+\item 
+double \mbox{\hyperlink{array_8c_acc42ffaff75049ff13ddcc40d57eff05}{mean}} (int arr\mbox{[}$\,$\mbox{]}, int arr\+Length)
+\item 
+double \mbox{\hyperlink{array_8c_a090e945d621945901a7506b3dc933234}{variance}} (int arr\mbox{[}$\,$\mbox{]}, int arr\+Length)
+\item 
+double \mbox{\hyperlink{array_8c_aa66aff8e2e30bba9e09f81fc44a13702}{standard\+Deviation}} (int arr\mbox{[}$\,$\mbox{]}, int arr\+Length)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides an implementation of \mbox{\hyperlink{input_8h}{input.\+h}}. 
+
+\begin{DoxyAuthor}{Author}
+Mauro Amaro 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/03-\/19
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{array_8c_afc8ddd6cf7e6f2f72d30bbb266ccfdea}\label{array_8c_afc8ddd6cf7e6f2f72d30bbb266ccfdea}} 
+\index{array.c@{array.c}!arrayPrint@{arrayPrint}}
+\index{arrayPrint@{arrayPrint}!array.c@{array.c}}
+\doxysubsubsection{\texorpdfstring{arrayPrint()}{arrayPrint()}}
+{\footnotesize\ttfamily void array\+Print (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{arr\+Length }\end{DoxyParamCaption})}
+
+
+
+Prints all elements of an integer array. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & An integer array \\
+\hline
+{\em arr\+Length} & The length of the integer array \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8c_acc42ffaff75049ff13ddcc40d57eff05}\label{array_8c_acc42ffaff75049ff13ddcc40d57eff05}} 
+\index{array.c@{array.c}!mean@{mean}}
+\index{mean@{mean}!array.c@{array.c}}
+\doxysubsubsection{\texorpdfstring{mean()}{mean()}}
+{\footnotesize\ttfamily double mean (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{arr\+Length }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & An integer array \\
+\hline
+{\em arr\+Length} & The length of the integer array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double Returns a double value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{array_8c_aa66aff8e2e30bba9e09f81fc44a13702}\label{array_8c_aa66aff8e2e30bba9e09f81fc44a13702}} 
+\index{array.c@{array.c}!standardDeviation@{standardDeviation}}
+\index{standardDeviation@{standardDeviation}!array.c@{array.c}}
+\doxysubsubsection{\texorpdfstring{standardDeviation()}{standardDeviation()}}
+{\footnotesize\ttfamily double standard\+Deviation (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{arr\+Length }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & An integer array \\
+\hline
+{\em arr\+Length} & The length of the integer array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double Returns a double value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{array_8c_a942add9bc2b63371fa1801e5ecd09905}\label{array_8c_a942add9bc2b63371fa1801e5ecd09905}} 
+\index{array.c@{array.c}!sum@{sum}}
+\index{sum@{sum}!array.c@{array.c}}
+\doxysubsubsection{\texorpdfstring{sum()}{sum()}}
+{\footnotesize\ttfamily int sum (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{arr\+Length }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & An integer array \\
+\hline
+{\em arr\+Length} & The length of the integer array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Returns an integer value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{array_8c_a090e945d621945901a7506b3dc933234}\label{array_8c_a090e945d621945901a7506b3dc933234}} 
+\index{array.c@{array.c}!variance@{variance}}
+\index{variance@{variance}!array.c@{array.c}}
+\doxysubsubsection{\texorpdfstring{variance()}{variance()}}
+{\footnotesize\ttfamily double variance (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{arr\+Length }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & An integer array \\
+\hline
+{\em arr\+Length} & The length of the integer array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double Returns a double value 
+\end{DoxyReturn}
